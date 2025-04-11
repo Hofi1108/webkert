@@ -6,10 +6,7 @@ Link a játékhoz:
 
 ## Technológiák
 - Angular 
-- Firestore
+- Firestore(később)
 
-## Követelmények
-- Regisztráció
-- Ranglista
-- Billentyűzettel irányítható
+
 
