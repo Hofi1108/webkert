@@ -1,0 +1,20 @@
+<div class="content">
+    <div class="table-container">
+        <table border=1 frame=void rules=rows class="mat-elevation-z8">
+            <thead>
+                <tr>
+                    <th>Username</th>
+                    <th>Best time</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <ng-container *ngFor="let data of userdata">
+                <tr>
+                    <td>{{data.username}}</td>
+                    <td>{{data.record}}ms</td>
+                    <td>{{data.date}}</td>
+                </tr>
+            </ng-container>
+        </table>
+    </div>
+</div>

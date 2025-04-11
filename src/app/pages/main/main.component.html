@@ -1,0 +1,18 @@
+<div class="welcome">
+    <ng-container *ngIf="!game_status && start_new_game; then home else yourtime"></ng-container>
+    <ng-template #home>
+        <p class="instruction">
+            When you see the RED LIGHT press SPACE to stop.<br>
+            Press SPACE to start the game.
+        </p>
+    </ng-template>
+    <ng-template #yourtime >
+       <p style="white-space: pre-line" class="instruction">
+        {{stop}}
+        {{reaction_time}}
+       </p>
+    </ng-template>
+    <div>
+        <img [src]="img_src" class="status">
+    </div>
+</div>

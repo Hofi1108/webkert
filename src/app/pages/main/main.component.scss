@@ -1,0 +1,22 @@
+
+
+.welcome {
+    width: 100%;
+    height: calc(100vh - 64px);
+    display: contents;
+    place-items: center;
+    text-align: center;
+}
+.instruction{
+    font-size: 3vh;
+    line-height: 4vh;
+}
+
+@media (max-width: 599px) {
+    .welcome {
+        height: calc(100vh - 56px);
+    }
+}
+.status{
+    width: 5%;
+}
