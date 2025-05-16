@@ -2,11 +2,8 @@
 
 webkert gyakorlathoz készített reflex tesztelő játék.
 
-Link a játékhoz:
+Link a játékhoz: https://reflextestweb.web.app/login
 
-## Technológiák
-- Angular 
-- Firestore(később)
 
 
 
